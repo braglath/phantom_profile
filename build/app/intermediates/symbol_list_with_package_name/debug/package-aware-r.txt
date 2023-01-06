@@ -1,4 +1,4 @@
-com.example.w2s
+com.example.phantom
 attr activityAction
 attr activityName
 attr alpha

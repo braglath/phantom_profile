@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.w2s"
+3    package="com.example.phantom"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -27,7 +27,7 @@
 22        android:icon="@mipmap/launcher_icon"
 23        android:label="Phantom Profile" >
 24        <activity
-25            android:name="com.example.w2s.MainActivity"
+25            android:name="com.example.phantom.MainActivity"
 26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 27            android:exported="true"
 28            android:hardwareAccelerated="true"

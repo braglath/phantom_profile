@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:phantom/app/data/constants/app_constants.dart';
+import 'package:phantom/app/data/extensions/format_date_extension.dart';
 import 'package:phantom/app/data/resources/color_resources.dart';
 import 'package:phantom/app/data/resources/strings.dart';
 import '../../../data/resources/image_assets.dart';
@@ -141,6 +142,8 @@ class Details extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
           children: [
+            IndividualDetails(
+                category: 'DOB:', value: controller.user.value.dob.formatDate),
             IndividualDetails(
                 category: 'Email:', value: controller.user.value.email),
             IndividualDetails(

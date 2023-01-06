@@ -40,7 +40,7 @@ INJECTED from /home/braglath/development/flutterprojects/w2s/android/app/src/deb
 INJECTED from /home/braglath/development/flutterprojects/w2s/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 INJECTED from /home/braglath/development/flutterprojects/w2s/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from /home/braglath/development/flutterprojects/w2s/android/app/src/main/AndroidManifest.xml:2:5-30
+		ADDED from /home/braglath/development/flutterprojects/w2s/android/app/src/main/AndroidManifest.xml:2:5-34
 		INJECTED from /home/braglath/development/flutterprojects/w2s/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/braglath/development/flutterprojects/w2s/android/app/src/debug/AndroidManifest.xml
 	android:versionName

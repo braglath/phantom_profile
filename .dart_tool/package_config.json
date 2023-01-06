@@ -176,6 +176,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///home/braglath/.pub-cache/hosted/pub.dartlang.org/intl-0.18.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///home/braglath/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
       "packageUri": "lib/",
@@ -398,7 +404,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2023-01-06T13:21:40.386909Z",
+  "generated": "2023-01-06T13:54:58.419582Z",
   "generator": "pub",
   "generatorVersion": "2.18.6"
 }
