@@ -1,0 +1,48 @@
+name: phantom
+version: 1.0.0+1
+publish_to: none
+description: Phantom profile viewer.
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: 1.1.0
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: 1.3.3
+  font_awesome_flutter: 9.2.0
+  get: 4.6.1
+  get_storage: 2.0.3
+  http: 0.13.4
+  lottie: 1.2.1
+  fluttertoast: ^8.1.2
+  jwt_decoder: ^2.0.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/brand/id_card_logo.png"
+  adaptive_icon_background: #ffffff
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/brand/id_card_logo.png
+  android_gravity: center
+  android_12:
+    image: assets/brand/id_card_logo.png
+    icon_background_color: "#ffffff"
+
+flutter:
+  assets:
+    - assets/
+    - assets/brand/
+    - assets/lottie/
+  uses-material-design: true
